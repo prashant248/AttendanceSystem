@@ -1,0 +1,31 @@
+worker ->
+	add 
+	remove 
+	update
+
+location ->
+	khet
+	ghar
+	bagicha
+
+-> User
+	name
+	number
+	email
+	username
+	location
+
+
+-> Groups - user -> worker -> 
+						-> timesheet 
+							-> morning shift
+							-> eve shift
+							-> full day
+						-> finance 
+							-> payment 
+							-> advance 
+							
+				 -> location 
+				 -> Rate
+				 	-> daily
+				 	-> monthly
